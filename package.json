@@ -1,6 +1,7 @@
 {
   "name": "ecommercewebsite",
   "private": true,
+  "homepage": "https://unaispk.github.io/ECommerceWebsite",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

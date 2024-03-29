@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 p-4 fixed w-full z-10 top-0">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-around items-center">
 
        <Link to={'/'}><p className="text-white font-semibold">Home</p></Link>
 

@@ -8,7 +8,7 @@ const Product = () => {
     useEffect(() => {
         axios.get('https://api.escuelajs.co/api/v1/products').then((res) => {
             console.log(res.data);
-            setProducts(res.data.slice(0, 50));
+            setProducts(res.data);
         });
     }, []);
 

@@ -27,9 +27,7 @@ const CategoryItem = () => {
                                     <div className="card-body p-4">
                                         <h2 className="card-title text-xl font-semibold mb-2">{category.name}</h2>
 
-                                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                            Add to cart
-                                        </button>
+                                        
                                     </div>
                                 </div>
                             </Link>
